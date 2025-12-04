@@ -59,3 +59,9 @@ Generates:
 Outputs results to:
 
 - `er.insights.ai`
+
+Example:
+![Finish_er.insights.ai.png](docs/images/Finish_er.insights.ai.png)
+
+Lineage Diagram:
+![cluster-lkc-69z1g8-lineage.png](docs/images/cluster-lkc-69z1g8-lineage.png)
