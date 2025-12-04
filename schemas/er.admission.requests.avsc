@@ -1,0 +1,24 @@
+{
+  "type": "record",
+  "namespace": "erflow.avro",
+  "name": "ERAdmissionRequest",
+  "fields": [
+    { "name": "episodeId",  "type": "string" },
+    { "name": "patientId",  "type": "string" },
+    {
+      "name": "arrivalMode",
+      "type": {
+        "type": "enum",
+        "name": "ArrivalMode",
+        "symbols": ["WALK_IN", "AMBULANCE", "TRANSFER", "OTHER"]
+      }
+    },
+    {
+      "name": "arrivalTs",
+      "type": {
+        "type": "long",
+        "logicalType": "timestamp-millis"
+      }
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "type": "record",
+  "namespace": "erflow.avro",
+  "name": "ERPatient",
+  "fields": [
+    { "name": "patientId", "type": "string" },
+    { "name": "firstName", "type": "string" },
+    { "name": "lastName",  "type": "string" },
+    { "name": "age",       "type": "int" },
+    { "name": "gender",    "type": "string" },
+    { "name": "riskGroup", "type": "string" }
+  ]
+}

@@ -30,3 +30,13 @@ go.work.sum
 # Editor/IDE
 # .idea/
 # .vscode/
+
+# Local env / secrets
+.env.*
+secrets/
+local/
+*.local.yaml
+*.local.json
+
+# macOS
+.DS_Store

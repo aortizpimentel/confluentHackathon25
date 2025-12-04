@@ -1,0 +1,24 @@
+{
+  "type": "record",
+  "namespace": "erflow.avro",
+  "name": "ERTriageCompleted",
+  "fields": [
+    { "name": "episodeId",   "type": "string" },
+    {
+      "name": "triageLevel",
+      "type": {
+        "type": "enum",
+        "name": "TriageLevel",
+        "symbols": ["I", "II", "III", "IV", "V"]
+      }
+    },
+    { "name": "reason",      "type": "string" },
+    {
+      "name": "triageTs",
+      "type": {
+        "type": "long",
+        "logicalType": "timestamp-millis"
+      }
+    }
+  ]
+}
